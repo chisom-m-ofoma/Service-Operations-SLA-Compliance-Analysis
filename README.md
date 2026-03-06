@@ -17,10 +17,14 @@ As ticket volume grows, MagnaTech must ensure that operational performance remai
 - Are operational metrics aligned with customer satisfaction?
 
 ## Analysis Performed
-To evaluate SLA performance, analytical views were created using SQL and visualised through Tableau.
-- Agent performance analysis: determines whether workload distribution affects performance and identifies top and lower performing agents.
-- Priority-based SLA analysis: evaluates whether the support system effectively prioritizes urgent tickets.
-- Monthly SLA trend analysis: monitors whether performance fluctuations correspond with workload changes over time.
+Exploratory analysis was conducted and analytical views created using MySQL. Key queries answered the following:
+- Overall SLA compliance levels
+- Ticket volume distribution
+- Agent performance metrics
+- SLA compliance by ticket priority
+- Monthly service performance trends
+
+[*Check out sql queries*](sql/magnatech_sla_analysis.md)
 
 ## Insights Discovered
 
